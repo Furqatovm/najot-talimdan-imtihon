@@ -614,6 +614,10 @@ a{
     display: none;
 }
 
+.rent-img{
+    display: block;
+}
+
 @media (min-width: 768px){
     body{
         max-width: 1250px;
@@ -698,6 +702,29 @@ a{
         width: 100%;
     }
 
+    .rent-img{
+        display: block;
+    }
 
+    
+    .wrapper-car .card-header{
+        width: 30%;
+        margin-top: 2rem;
+    }
+    .explore .wrapper-car{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+   .services .card-gray{
+        min-width: 357px;
+    }
+    .sec .wrapper-cards{
+        display: flex;
+        overflow-x: auto;
+        flex-direction: row;
+    }
+    .services .wrapper-cards::-webkit-scrollbar{
+        display: none;
+    }
 }
