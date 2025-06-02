@@ -480,10 +480,224 @@ select{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 32px;
-    border: 2px solid #FCFCFD;
+    padding: 2rem 5rem 2rem 2rem;
+    border: 2px solid #F4F5F6;
     border-radius: 24px;
+    min-width: 256px;
+    
 }
 .card-1 svg{
     margin-top: 3rem;
+}
+
+.pick-up{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.pick-up .wrapper-cards{
+    margin-top: 2rem;
+}
+
+.pick-up .wrapper-array{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    border-top: 2px solid #FCFCFD;
+}
+
+.wrap-logo{
+    max-width: 94px;
+}
+.wrap-logo img{
+    width: 100%;
+}
+
+
+ul li{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    color: #777E90;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--primary-sarlavha-family);
+}
+
+.footer-input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #777E90;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--primarymatnfamliy);
+}
+.footer-input::placeholder{
+    color: #777E90;
+}
+
+.wra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B71FE;
+    border-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.wrapper-form{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #E6E8EC;
+    border-radius: 90px;
+    padding: 5px 5px 5px 15px;
+}
+
+.salom{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+.lastli{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
+}
+
+.made-by{
+    font-size: 12px;
+    color: #777E90;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.made-by span{
+    color: #3B71FE;
+}
+
+a{
+    cursor: pointer;
+}
+
+.header-left select{
+    display: none;
+}
+
+.top-right{
+    display: none;
+}
+
+@media (min-width: 768px){
+    body{
+        max-width: 1250px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .logo{
+        max-width: 106px;
+        border-right: 2px solid #777E90;
+        padding-right: 2rem;
+    }
+    .header-left{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        max-width: 300px;
+    }
+    .header-left select{
+        border: none;
+        background-color: transparent;
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #777E90;
+        font-weight: 700;
+        display: block;
+    }
+    .main-sarlavha{
+        font-size: 4rem;
+    }
+    .general-matn{
+        font-size: 2rem;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./assets/backgroundimages/pexels-leah-kelley-3935702\ \(1\)\ 1\ \(1\).png);
+        height: 90vh;
+    }
+    .destinations{
+        margin-top: 8rem;
+    }
+    .destinations-top{
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: row; */
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .top-right{
+        display: flex;
+        width: auto;
+    }
+    .card-header{
+        min-width: 320px;
+        /* min-height: 337px; */
+    }
+    .wrapper-cards{
+        max-width: 1250px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .rent-left{
+        width: 42%;
+    }
+    .rent-right{
+        width: 48%;
+    }
+    .rent-right img{
+        width: 100%;
+    }
+    .rent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #phone{
+        max-width: 300px;
+        width: 100%;
+    }
+
+
+
 }
