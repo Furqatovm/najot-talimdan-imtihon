@@ -17,5 +17,21 @@ function dropdown() {
 
 
 
+let och =document.getElementById("openn");
+let yop =document.getElementById("close");
+
+let sidebar =document.getElementById("sidebar");
+
+och.addEventListener("click", function (){
+    sidebar.style.display ="flex";
+    och.style.display ="none";
+})
+
+yop.addEventListener("click", function(){
+    sidebar.style.display ="none";
+    och.style.display ="block";
+})
+
+
 
 dropdown();
