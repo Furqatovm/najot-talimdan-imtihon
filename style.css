@@ -886,15 +886,36 @@ header .logo{
     }
 
     .wrapper-language{
-        display: flex;
+        display: none;
     }
 
     .side-bar{
         display: none;
     }
-
-    #open{
+    .header-right-link{
         display: none;
     }
 
+    
+
+}
+
+
+@media (min-width: 1250px){
+
+    body{
+        max-width: 1250px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .wrapper-language{
+        display: flex;
+    }
+    .header-right-link{
+        display: block;
+    }
+    .card-header, .card-1{
+        min-width: 350px;
+    }
+    
 }
